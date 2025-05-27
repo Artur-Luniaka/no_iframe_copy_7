@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "title": "Fruit Frenzy - Clash of Juicy Champions",
+    "description": "Welcome to Fruit Clash – the ultimate fruit-matching battle! Slice, swap, and smash your way through vibrant levels packed with juicy action!"
+  },
+  "hero": {
+    "title": "Fruit Clash",
+    "description": "Dive into a fruity frenzy! Match delicious fruits, trigger explosive combos, and conquer juicy levels in this colorful arcade puzzle adventure."
+  },
+  "gameFlow": {
+    "title": "How to Play",
+    "steps": [
+      {
+        "title": "Pick a Challenge",
+        "description": "Start with simple fruit-matching puzzles and gradually unlock tougher levels bursting with flavor."
+      },
+      {
+        "title": "Match & Smash",
+        "description": "Align three or more identical fruits to trigger combos and clear the board with satisfying bursts."
+      },
+      {
+        "title": "Use Boosters",
+        "description": "Unlock and deploy powerful fruit boosters to clear tricky spots and gain the upper hand."
+      },
+      {
+        "title": "Climb the Ranks",
+        "description": "Complete juicy levels to earn stars, unlock new areas, and rise through the fruity leaderboard."
+      }
+    ]
+  },
+  "testimonials": [
+    {
+      "text": "I can’t get enough of Fruit Clash! The levels are colorful and fun, and the combos are so satisfying to watch.",
+      "author": "Lena Thompson",
+      "title": "Arcade Fan"
+    },
+    {
+      "text": "Fruit Clash is my new go-to puzzle game. It's relaxing but still gives you that rewarding challenge!",
+      "author": "David Kim",
+      "title": "Match-3 Lover"
+    },
+    {
+      "text": "I play a lot of mobile games, but Fruit Clash really stands out. Bright visuals, cool mechanics, and zero boredom!",
+      "author": "Nina Alvarez",
+      "title": "Mobile Game Critic"
+    }
+  ],
+  "garageInsights": {
+    "title": "Fruit Facts",
+    "items": [
+      {
+        "title": "Juicy Animations",
+        "description": "Enjoy satisfying slicing effects and bursting animations every time you match fruits!"
+      },
+      {
+        "title": "Tons of Fruit Types",
+        "description": "From classic apples and bananas to exotic starfruit and dragon fruit – every match is a delight."
+      },
+      {
+        "title": "Surprising Obstacles",
+        "description": "Break through crates, avoid slime, and outsmart frozen tiles as the levels get more exciting!"
+      }
+    ]
+  },
+  "playerAchievements": {
+    "title": "Tasty Achievements",
+    "items": [
+      {
+        "name": "Fruit Fanatic",
+        "description": "Matched over 1,000 fruits in a single session."
+      },
+      {
+        "name": "Combo King",
+        "description": "Triggered 5 mega combos in one level."
+      },
+      {
+        "name": "Perfect Pick",
+        "description": "Cleared a level without using any boosters."
+      }
+    ]
+  }
+}

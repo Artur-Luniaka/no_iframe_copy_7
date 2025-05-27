@@ -1,0 +1,12 @@
+{
+  "meta": {
+    "title": "Signal Us - Fruit Clash",
+    "description": "Reach out to the Fruit Clash team for support, feedback, or partnership opportunities."
+  },
+  "contactInfo": {
+    "address": "250 Collins Street, Melbourne VIC 3000, Australia",
+    "phone": "+61 3 9657 9962",
+    "email": "info@domain.com",
+    "mapEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.838185154269!2d144.96305831531673!3d-37.81421744228251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d44a57d4317%3A0xd95b16330d0c5b0!2s250%20Collins%20St%2C%20Melbourne%20VIC%203000%2C%20Australia!5e0!3m2!1sen!2sus!4v1685096782251!5m2!1sen!2sus\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
+  }
+}

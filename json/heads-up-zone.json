@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "title": "Heads-Up Zone - Fruit Clash",
+    "description": "Essential info and disclaimers for players of Fruit Clash."
+  },
+  "title": "Heads-Up Zone",
+  "sections": [
+    {
+      "title": "Game Disclaimer",
+      "paragraphs": [
+        "Fruit Clash is a fictional game developed purely for fun and entertainment. Any similarities to real fruit battles or orchard scenarios are entirely coincidental.",
+        "The gameplay is designed to be colorful and exciting, but it does not reflect actual fruit-slicing techniques or real-world fruit behavior."
+      ],
+      "list": []
+    },
+    {
+      "title": "Age Appropriateness",
+      "paragraphs": [
+        "Fruit Clash is suitable for players of all ages. It contains no violence, offensive language, or adult content."
+      ],
+      "list": []
+    },
+    {
+      "title": "In-App Purchases",
+      "paragraphs": [
+        "Fruit Clash is free to download and play, with optional in-app purchases available. These are not necessary to complete the game but can enhance gameplay by unlocking:"
+      ],
+      "list": [
+        "Extra fruit worlds",
+        "Exclusive fruit skins",
+        "Boosters and combo hints",
+        "Ad-free experience"
+      ]
+    },
+    {
+      "title": "Data Collection",
+      "paragraphs": [
+        "Fruit Clash gathers limited user data to ensure a smoother experience. We may collect:"
+      ],
+      "list": [
+        "Gameplay stats and achievements",
+        "Device info for performance tuning",
+        "Error reports for debugging"
+      ]
+    },
+    {
+      "title": "Internet Connection",
+      "paragraphs": [
+        "Some features of Fruit Clash require an internet connection, such as downloading content updates, joining fruit battles, or syncing across devices.",
+        "You can still enjoy the main game modes offline after installation."
+      ],
+      "list": []
+    }
+  ]
+}

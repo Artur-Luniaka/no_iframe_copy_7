@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "title": "Fruit Frenzy - Fruit Clash",
+    "description": "Catch the freshest news and juicy updates from the world of Fruit Clash!"
+  },
+  "newsItems": [
+    {
+      "title": "New Juicer Mode Incoming",
+      "date": "May 15, 2025",
+      "excerpt": "Get ready for the sweetest twist yet! Juicer Mode introduces time-limited levels, exploding fruits, and bonus chains. Will you rise to the fruity challenge?",
+      "content": "Full article content here...",
+      "image": "./images/news-1.jpg"
+    },
+    {
+      "title": "Tropical Clash Tournament Begins",
+      "date": "May 10, 2025",
+      "excerpt": "Step into the blender! Compete in the Tropical Clash Tournament and slice your way to the top for juicy prizes and exclusive fruit skins. Registration opens soon!",
+      "content": "Full article content here...",
+      "image": "./images/news-2.jpg"
+    },
+    {
+      "title": "Update 2.5 Patch Highlights",
+      "date": "May 3, 2025",
+      "excerpt": "Fruit Clash 2.5 is here! Enjoy crisper visuals, 20 vibrant new levels, and smoother gameplay thanks to our latest optimizations. Dive into the flavor now!",
+      "content": "Full article content here...",
+      "image": "./images/news-3.jpg"
+    },
+    {
+      "title": "Inside the Orchard: Level Design Secrets",
+      "date": "April 25, 2025",
+      "excerpt": "Go behind the scenes with our lead fruit architect! Learn how the juiciest puzzles are crafted and what it takes to design levels that really pop.",
+      "content": "Full article content here...",
+      "image": "./images/news-4.jpg"
+    }
+  ]
+}

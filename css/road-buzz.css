@@ -1,0 +1,118 @@
+/* Road Buzz (News Page) Styles */
+.news-hero {
+  background: var(--secondary-gradient);
+  color: var(--light-color);
+  padding: 3rem 1rem;
+  border-radius: var(--large-radius);
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.news-title {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.news-subtitle {
+  font-size: 1.25rem;
+  opacity: 0.9;
+}
+
+.news-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.news-item {
+  display: flex;
+  flex-wrap: wrap;
+  background: var(--light-color);
+  border-radius: var(--medium-radius);
+  overflow: hidden;
+  box-shadow: var(--medium-shadow);
+  transition: var(--medium-transition);
+}
+
+.news-item:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--large-shadow);
+}
+
+.news-item:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+
+.news-image {
+  flex: 1;
+  min-width: 300px;
+  background-size: cover;
+  background-position: center;
+  min-height: 250px;
+}
+
+.news-content {
+  flex: 2;
+  min-width: 300px;
+  padding: 2rem;
+}
+
+.news-date {
+  display: inline-block;
+  background: var(--accent-gradient);
+  color: var(--light-color);
+  padding: 0.25rem 0.75rem;
+  border-radius: var(--small-radius);
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+}
+
+.news-item-title {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+  color: var(--dark-color);
+}
+
+.news-excerpt {
+  color: var(--gray-color);
+  margin-bottom: 1.5rem;
+}
+
+.news-read-more {
+  display: inline-flex;
+  align-items: center;
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 600;
+  transition: var(--fast-transition);
+}
+
+.news-read-more:hover {
+  color: var(--dark-color);
+}
+
+.news-read-more:after {
+  content: "→";
+  margin-left: 0.5rem;
+  transition: var(--fast-transition);
+}
+
+.news-read-more:hover:after {
+  margin-left: 0.75rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .news-title {
+    font-size: 2.5rem;
+  }
+
+  .news-item,
+  .news-item:nth-child(even) {
+    flex-direction: column;
+  }
+
+  .news-image {
+    min-height: 200px;
+  }
+}

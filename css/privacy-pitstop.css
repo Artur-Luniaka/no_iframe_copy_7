@@ -1,0 +1,86 @@
+/* Privacy Pitstop (Privacy Policy Page) Styles */
+.privacy-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: var(--light-color);
+  border-radius: var(--large-radius);
+  box-shadow: var(--medium-shadow);
+}
+
+.privacy-title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: var(--dark-color);
+}
+
+.privacy-content {
+  line-height: 1.8;
+}
+
+.privacy-section-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--dark-color);
+}
+
+.privacy-subtitle {
+  font-size: 1.5rem;
+  margin: 2rem 0 1rem;
+  color: var(--dark-color);
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.privacy-subtitle:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 10px;
+  height: 10px;
+  background: var(--primary-gradient);
+  border-radius: var(--round-radius);
+}
+
+.privacy-text {
+  color: var(--gray-color);
+  margin-bottom: 1rem;
+}
+
+.privacy-list {
+  list-style: none;
+  margin-left: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.privacy-list-item {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--gray-color);
+}
+
+.privacy-list-item:before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: var(--primary-color);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .privacy-title {
+    font-size: 2rem;
+  }
+
+  .privacy-section-title {
+    font-size: 1.75rem;
+  }
+
+  .privacy-subtitle {
+    font-size: 1.25rem;
+  }
+}

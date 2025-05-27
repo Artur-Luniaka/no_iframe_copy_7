@@ -1,0 +1,81 @@
+/* Cookie Controls (Cookie Policy Page) Styles */
+.cookie-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: var(--light-color);
+  border-radius: var(--large-radius);
+  box-shadow: var(--medium-shadow);
+}
+
+.cookie-title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: var(--dark-color);
+}
+
+.cookie-content {
+  line-height: 1.8;
+}
+
+.cookie-section-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--dark-color);
+}
+
+.cookie-subtitle {
+  font-size: 1.5rem;
+  margin: 2rem 0 1rem;
+  color: var(--dark-color);
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.cookie-subtitle:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 10px;
+  height: 10px;
+  background: var(--secondary-gradient);
+  border-radius: var(--round-radius);
+}
+
+.cookie-list {
+  list-style: none;
+  margin-left: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.cookie-list-item {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--gray-color);
+}
+
+.cookie-list-item:before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: var(--secondary-color);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .cookie-title {
+    font-size: 2rem;
+  }
+
+  .cookie-section-title {
+    font-size: 1.75rem;
+  }
+
+  .cookie-subtitle {
+    font-size: 1.25rem;
+  }
+}

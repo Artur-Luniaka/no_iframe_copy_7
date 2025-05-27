@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signal Us - Crazy Parking Jam</title>
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="icon" href="images/favicon.ico" />
+    <script src="js/injectLayout.js" defer></script>
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <div class="header-container" id="header-container"></div>
+
+    <main class="main-content">
+      <section class="contact-hero">
+        <h1 class="contact-title">Signal Us</h1>
+        <p class="contact-subtitle">
+          Got questions or feedback? We're here to assist your Fruit Clash
+          adventure
+        </p>
+      </section>
+
+      <section class="contact-container">
+        <div class="contact-form-container">
+          <h2 class="form-title">Send us a signal</h2>
+          <form class="contact-form" id="contactForm">
+            <div class="form-group">
+              <label class="form-label" for="name">Name</label>
+              <input
+                class="form-input"
+                type="text"
+                id="name"
+                name="name"
+                required
+              />
+              <span class="error-message" id="nameError"></span>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="email">Email</label>
+              <input
+                class="form-input"
+                type="email"
+                id="email"
+                name="email"
+                required
+              />
+              <span class="error-message" id="emailError"></span>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="subject">Subject</label>
+              <input
+                class="form-input"
+                type="text"
+                id="subject"
+                name="subject"
+                required
+              />
+              <span class="error-message" id="subjectError"></span>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="message">Message</label>
+              <textarea
+                class="form-textarea"
+                id="message"
+                name="message"
+                rows="5"
+                required
+              ></textarea>
+              <span class="error-message" id="messageError"></span>
+            </div>
+            <button class="submit-button" type="submit">Send Message</button>
+          </form>
+        </div>
+
+        <div class="contact-info-container">
+          <div class="contact-info">
+            <h2 class="info-title">Contact Information</h2>
+            <div class="info-item">
+              <span class="info-label">Address:</span>
+              <address class="info-value address"></address>
+            </div>
+            <div class="info-item">
+              <span class="info-label">Phone:</span>
+              <a class="info-value phone" href="tel:"></a>
+            </div>
+            <div class="info-item">
+              <span class="info-label">Email:</span>
+              <a class="info-value email" href="mailto:info@domain.com"
+                >info@domain.com</a
+              >
+            </div>
+          </div>
+
+          <div class="map-container">
+            <!-- Google Maps iframe will be loaded from JSON -->
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="footer-container" id="footer-container"></div>
+  </body>
+</html>
